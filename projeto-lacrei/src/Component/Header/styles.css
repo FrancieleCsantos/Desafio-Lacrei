@@ -5,6 +5,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 
 header h1 {
@@ -15,7 +16,7 @@ header h1 {
     font-weight: 700;
     font-size: 32px;
     line-height: 44px;
-
+    cursor: pointer;
     color: #018762;
 }
 
@@ -25,6 +26,7 @@ h2 {
     font-weight: 700;
     font-size: 16px;
     line-height: 22px;
+    cursor: pointer;
 }
 
 .optionsheader {
