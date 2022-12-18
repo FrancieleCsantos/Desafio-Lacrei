@@ -6,8 +6,7 @@ function Home() {
     return (
         <div className='general-container'>
             <div className='left'>
-                <h1>Boas vindas a Lacrei <br />
-                    Saúde</h1>
+                <h1>Pessoa Usuária</h1>
 
                 <h2>Uma plataforma segura e acolhedora <br />
                     para comunidade LGBTQIAPN+</h2>

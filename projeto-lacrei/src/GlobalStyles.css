@@ -83,3 +83,18 @@ button:hover {
     color: #018762;
 
 }
+
+.div-green-Line {
+    display: flex;
+}
+
+.div-green-Line h2 {
+    margin-left: 24px;
+}
+
+.green-Line {
+    width: 10px;
+    height: 132px;
+    background: #018762;
+
+}
