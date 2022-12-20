@@ -1,7 +1,9 @@
 import './styles.css'
+import { Navigate, useNavigate } from 'react-router-dom';
 
 function Header() {
 
+    const navigate = useNavigate()
 
     return (
 

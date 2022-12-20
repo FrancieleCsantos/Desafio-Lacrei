@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router-dom'
 import Home from './Pages/Home';
 import Personuser from './Pages/Personuser';
+import Professional from './Pages/Professional'
 
 
 function MainRoutes() {
@@ -10,7 +11,7 @@ function MainRoutes() {
         <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/people' element={<Personuser />} />
-
+            <Route path='/professional' element={<Professional />} />
         </Routes>
     )
 }
