@@ -17,8 +17,11 @@ function Home() {
                         para comunidade LGBTQIAPN+</h2>
 
                     <div className='general-container-button' >
-                        <button className='btn-green'>Pessoa Usuária</button>
-                        <button className='btn-edge-green'>Profissional</button></div>
+
+                        <Link to='/people'><button className='btn-green'>Pessoa Usuária</button></Link>
+                        <Link to='/professional'><button className='btn-edge-green'>Profissional</button></Link>
+
+                    </div>
                 </div>
                 <div className='right'>
                     <img src={imgHome} alt='img-home' />

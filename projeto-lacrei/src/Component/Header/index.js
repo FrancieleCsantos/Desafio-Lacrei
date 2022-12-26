@@ -1,18 +1,30 @@
 import './styles.css'
-import { Navigate, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import { useState } from 'react';
 
 function Header() {
 
-    const navigate = useNavigate()
+    const [color, setColor] = useState()
+
+    function colorChange() {
+        setColor()
+    }
 
     return (
+
+
 
         <header>
             <h1>Lacrei</h1>
             <div className='optionsheader'>
-                <h2>Home</h2>
-                <h2>Pessoa Usuária</h2>
-                <h2>Profissional</h2>
+                <nav>
+                    <ul>
+                        <Link to='/' ><li>Home</li ></Link>
+                        <Link to='/people'><li>Pessoa Usuária</li></Link>
+                        <Link to='/professional'><li>Profissional</li></Link>
+                    </ul>
+                </nav>
+
             </div>
         </header>
     )
