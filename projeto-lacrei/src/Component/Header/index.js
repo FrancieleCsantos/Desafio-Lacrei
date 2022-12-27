@@ -1,14 +1,9 @@
 import './styles.css'
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
+
 
 function Header() {
 
-    const [color, setColor] = useState()
-
-    function colorChange() {
-        setColor()
-    }
 
     return (
 

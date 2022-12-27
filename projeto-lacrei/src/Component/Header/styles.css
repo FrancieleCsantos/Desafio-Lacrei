@@ -27,17 +27,19 @@ nav li {
     line-height: 22px;
     cursor: pointer;
     display: flex;
-    color: black;
-
+    color: #018762;
 }
+
 
 a:link {
     text-decoration: none;
+
 }
 
 ul {
     display: flex;
     gap: 40px;
+
 }
 
 .optionsheader {
