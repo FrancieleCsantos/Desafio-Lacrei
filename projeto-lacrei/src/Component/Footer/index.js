@@ -19,7 +19,7 @@ function Footer() {
                 <div className='media-navigation'>
                     <img src={face} alt='face' />
                     <img src={insta} alt='insta' />
-                    <img src={Linkd} alt='linkedin' />
+                    <a href="https://www.linkedin.com/company/lacrei/"><img src={Linkd} alt='linkedin' /></a>
                 </div>
                 <span>Desafio Front-end Lacrei</span>
             </footer>
