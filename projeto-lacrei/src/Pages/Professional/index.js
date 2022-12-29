@@ -14,7 +14,9 @@ function Profissional() {
 
                     <div className='div-green-Line'>
                         <div className='green-Line'></div>
-                        <h2>A Lacrei garante que pessoas LGBTQIAPN + recebam atendimento realizado por profissionais de qualidade e que atendam às suas necessidades de forma segura e acolhedora.</h2>
+                        <h2>A Lacrei acredita que, ao transformar a realidade de um indivíduo ou de um grupo, transformamos o mundo.
+
+                            Pensando nisso, construímos a Lacrei para buscarmos incansavelmente a melhor experiência no acesso a profissionais da saúde para as pessoas LGBTQIAPN+</h2>
                     </div>
 
                 </div>
